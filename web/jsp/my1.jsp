@@ -10,9 +10,9 @@
 <head>
     <title>图片轮换My</title>
     <style type="text/css">
-        #slide_box{position: absolute;width: 800px;height: 450px;top: 50px;left: 20px;overflow: hidden}
-        #slide_box .slide_img{position: absolute;width: auto;height: 450px;left: 0;top: 0}
-        #slide_box .slide_img li{overflow: hidden;float: left;display: block}
+        #slide_box{position: absolute;width: 800px;height: 450px;top: 50px;left: 20px;overflow: hidden;background-color: yellow}
+        #slide_box .slide_img{position: absolute;width: auto;height: 450px;left: 0;top: 0;padding: 0 0 0 0;margin-top: 0}
+        #slide_box .slide_img li{overflow: hidden;float: left;display: block;}
         #slide_box .slide_img li img{max-width: 800px}
 
         #slide_order{text-align: right;position: absolute;right: 0px;bottom: 6px;width: auto;height: 30px;}
@@ -31,7 +31,6 @@
 </head>
 <body>
     <div id="slide_box">
-
         <ul class="slide_img">
             <li><a href=""><img src="../img/1.jpg" width="800px" height="450px"></a></li>
             <li><a href=""><img src="../img/2.jpg" width="735px" height="450px"></a></li>
