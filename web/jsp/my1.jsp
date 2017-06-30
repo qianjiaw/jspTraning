@@ -31,6 +31,7 @@
 </head>
 <body>
     <div id="slide_box">
+
         <ul class="slide_img">
             <li><a href=""><img src="../img/1.jpg" width="800px" height="450px"></a></li>
             <li><a href=""><img src="../img/2.jpg" width="735px" height="450px"></a></li>
